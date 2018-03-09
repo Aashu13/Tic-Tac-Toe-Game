@@ -1,0 +1,69 @@
+<!doctype>
+<html>
+
+<head>
+    <title>Tic Tac toe Game</title>
+    <link rel="stylesheet" href="css folder/bootstrap.min.css">
+    <link rel="stylesheet" href="css folder/font-awesome.min.css">
+    <link rel="stylesheet" href="css folder/style.css">
+
+</head>
+
+<body>
+
+    <h1>Tic Tac Toe Game</h1>
+
+    <div id="container">
+        <h3 id="winnerMessage"></h3>
+
+        <div id="reset_Btn">
+            <ul>
+                <li>
+                    <a href="#" id="player_1">Player</a>
+                    <span id="player"></span>
+                </li>
+                <li>
+                    <a href="#" id="computer_player">Computer</a>
+                    <span id="computer"></span>
+                </li>
+                <li>
+                    <a class="btn btn-default" id="reset_all">Reset-All</a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="game_choose">
+            <h2>How do you want to play</h2>
+            <button class="btn btn-primary" id="one_player">One Player</button>
+            <button class="btn btn-danger" id="two_player">Two Player</button>
+        </div>
+        <div class="Table">
+            <table>
+                <tr>
+                    <td class="cell" id="0" value="0"></td>
+                    <td class="cell" id="1" value="1"></td>
+                    <td class="cell" id="2" value="3"></td>
+                </tr>
+
+                <tr>
+                    <td class="cell" id="3" value="3"></td>
+                    <td class="cell" id="4" value="4"></td>
+                    <td class="cell" id="5" value="5"></td>
+                </tr>
+
+                <tr>
+                    <td class="cell" id="6" value="6"></td>
+                    <td class="cell" id="7" value="7"></td>
+                    <td class="cell" id="8" value="8"></td>
+                </tr>
+
+            </table>
+        </div>
+
+    </div>
+
+    <script src="js file/jquery.min.js"></script>
+    <script src="js file/main.js"></script>
+</body>
+
+</html>
